@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<form id="meuFormulario">
+<label for="nome">Nome:</label>
+<input type="text" id="email" name="email">
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email">
+
+<label for="mensagem">Mensagem:</label>
+<textarea id="mensagem" name="mansagem"></textarea>
+<br><br>
+
+<button type="button" onclick="limparMensagem()">Limpar Mensagem</button>
+<button type="submit">Enviar</button>
+</form>
+
+<script>
+    function limparMensagem(){
+        document.getElementById("mensagem"). value ="";
+        alert("Mensagem limpa com sucesso!");
+    }
+</script>
+
+
