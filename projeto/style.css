@@ -1,0 +1,20 @@
+.login-Form{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: arial;
+}
+
+.tela{
+    background-image:url(img/imagem.png3) ;
+    background-size: auto;
+    background-position: auto;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
